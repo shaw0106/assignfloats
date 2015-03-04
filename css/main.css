@@ -9,7 +9,7 @@ header{
 }
 
 h1 {
-  font-size:2.5rem;
+  font-size:3.0rem;
   font-family:Merriweather, serif;
   color:#fff;
   line-height:1.5;
@@ -22,36 +22,65 @@ h1 {
 }
 
 h2 {
-  font-size:4rem;
+  font-size:2.5rem;
   font-family:Merriweather, serif;
   line-height:1.5;
   border-top:solid, #ffe524, 0.5rem;
   margin: 0.75em;
-  padding: 0.5em 0.5em;
-  color:#cd5b34;
+  padding: 2em 0em 2em 0em;
+  color:#fff;
+  background-color:#d98156;
 }
 
 .grains{
   float:left;
   width:30%;
-  margin:2em;
+  margin:0em;
   padding:0.5em;
   border-color:gray;
   border:2em;
 
 }
+.cereals {
+  float:right;
+  width:30%;
+  margin:0em;
+  padding:0.5em;
+  border-color:gray;
+  border:2em;
+}
+
+.quinoa{
+  float:right;
+  clear:both;
+  width:30%;
+  margin:0em;
+  padding:0.5em;
+  border-color:gray;
+  border:2em;
+}
+
+.corn{
+  float:right;
+  width:100%;
+  margin:2em;
+  padding:0.5em;
+  border-color:gray;
+  border:2em;
+}
+
+.rice{
+  float:right, bottom;
+  width:30%;
+  margin:2em;
+  padding:0.5em;
+  border-color:gray;
+  border:2em;
+}
+
 
 main {
   padding: 0em 1em;
-}
-
-figcaption {
-  text-align:center;
-}
-
-ol{
-  list-style-type: lower-roman;
-  font-size:1.5rem;
 }
 
 ul{
@@ -64,16 +93,10 @@ p{
   font-size:2rem;
   font-style:normal;
   font-family:Merriweather, serif;
-  margin: 0.75em;
+  margin: 0em;
   line-height: 1.5em;
-
-}
-
-a {
-  color:blue;
-}
-
-a:hover{color:#cc3865;
+  padding: 0.5em;
+  border:
 }
 
 nav a:hover{
@@ -85,43 +108,6 @@ figcaption {
   font-size:.8rem;
 }
 
-h3{
-  font-family:'Sigmar One',sans-serif;
-  margin: 1em;
-  color:#b32f52;
-  font-size:2rem;
-}
-
-h4{
-  font-size:3rem;
-  font-weight:bold;
-  margin:1rem;
-  padding:0rem;
-  text-align:center;
-  color:#c5b844;
-}
-
-blockquote div{
-  text-align:center;
-  font-size:1rem;
-  color:#b2a215;
-}
-
-blockquote{
-  text-align: center;
-  font-weight: bold;
-  font-size: 1rem;
-  font-style: normal;
-  font-family: Times, serif;
-  line-height: 1.5;
-  color:#b2a215;
-
-}
-
-blockquote{
-  font-style:italic;
-  font-size:2rem;
-}
 body {
   margin:0;
   font-family:
@@ -198,4 +184,11 @@ dl{
 dd{
 margin: 0;
 line-height: 2;
+}
+
+a {
+  color:blue;
+}
+
+a:hover{color:#cc3865;
 }
