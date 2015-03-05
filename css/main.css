@@ -2,6 +2,8 @@
 html {
   background-color:#fff;
   font-family:Merriweather, serif;
+  margin:0em;
+  padding:0em;
 }
 
 header{
@@ -13,8 +15,7 @@ h1 {
   font-family:Merriweather, serif;
   color:#fff;
   line-height:1.5;
-  margin:.5em;
-  padding: 1em;
+  padding: 0em;
   /*padding: 1em 1em 0.5em 1em;*/
   margin: 0;
   border-radius:10px;
@@ -25,7 +26,7 @@ h2 {
   font-size:2.5rem;
   font-family:Merriweather, serif;
   line-height:1.5;
-  border-top: #ffe524, 0.5rem;
+  border-top: #ffe524;
   margin: 0em;
   padding: 2em 0em 2em 0em;
   color:#fff;
@@ -34,6 +35,26 @@ h2 {
 
 main{
   overflow:hidden;
+  margin:0em 0em 0em 0em;
+  padding:0em 0em 0em 0em;
+  border:0em;
+}
+
+.grain-left {
+  float:left;
+  width:5%;
+  margin:0em;
+  padding:0em;
+  border:2em;
+}
+
+.grain-right{
+  float:right;
+  /*clear:right;*/
+  width:5%;
+  margin:0em;
+  padding:0em;
+  border:2em;
 }
 
 .grains{
@@ -43,7 +64,6 @@ main{
   padding:0.5em;
   border-color:gray;
   border:2em;
-
 }
 
 .cereals {
@@ -64,7 +84,6 @@ main{
   padding:0.5em;
   border-color:gray;
   border:2em;
-
 }
 
 .corn{
@@ -89,10 +108,10 @@ main{
 .oat{
   float:right;
   width:50%;
-  margin:2em;
-  padding:0.5em;
+  margin:0em;
+  padding:0em;
   border-color:gray;
-  border:2em;
+  border:0em;
 }
 .peanuts{
   float:right;
@@ -156,7 +175,7 @@ figcaption {
 
 body {
   margin:0;
-  font-family:
+  font-family:Merriweather, serif;
 }
 
 a{
@@ -168,12 +187,13 @@ a{
 nav{
   background-color:#cd5b34;
   text-align:center;
+  border-color:3px solid #a33f3a
 }
 
 nav ul {
   list-style:none;
   margin:0.3em;
-  padding:0.5rem, 0.75rem;
+  padding:0.5em 0.75em 0em 0.5em;
   border:0.25em;
   border-color:#a33f3a;
   border-radius:2em;
@@ -186,6 +206,7 @@ nav li {
   margin:.5em;
   padding:0.25em;
   background-color:#cd5b34;
+  border
 }
 
 nav a {
@@ -203,7 +224,6 @@ figure{
   background-color:#fffce0;
   border-color:#c5b844;
 }
-
 
 footer {
   background-color:#cd5b34;
