@@ -132,7 +132,7 @@ main{
   padding:0.5em;
   border-color:gray;
   border:2em;
-  clear:both;
+  clear:right;
 }
 
 .beans{
@@ -142,8 +142,36 @@ main{
   border-color:gray;
   border:2em;
   float:right;
+  clear:right;
+}
+
+.bean-cap{
+  float:left;
   clear:both;
 }
+
+.beans-block{
+  clear:both;
+}
+
+.peanuts-block{
+  clear:both;
+}
+
+.lentil-block{
+  clear:both;
+}
+
+.peanut-cap{
+  float:left;
+  clear:both;
+}
+
+.lentil-cap{
+  float:left;
+  clear:both;
+}
+
 .lentils{
   float:right;
   clear:both;
