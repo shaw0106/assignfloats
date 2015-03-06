@@ -41,13 +41,11 @@ h3 {
   border-top: #ffe524;
   margin: 0em;
   padding: 2em 0em 2em 0em;
-  color:#fff;
+  color:#black;
   background-color:#fff;
   text-align:center;
 
 }
-
-
 
 main{
   overflow:hidden;
@@ -306,7 +304,7 @@ figure{
 
 footer {
   background-color:#cd5b34;
-  padding: 2em 2em 2em;
+  padding:0em;
   color:#b32f52;
 }
 
