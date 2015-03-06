@@ -31,6 +31,7 @@ h2 {
   padding: 2em 0em 2em 0em;
   color:#fff;
   background-color:#d98156;
+  text-align:center;
 }
 
 main{
@@ -159,6 +160,18 @@ p{
   margin: 0em;
   line-height: 1.5em;
   padding: 0.5em;
+
+}
+
+.cornp{
+  font-weight:normal;
+  font-size:1rem;
+  font-style:normal;
+  font-family:Merriweather, serif;
+  margin: 0em;
+  line-height: 1.5em;
+  padding: 0.5em;
+  color:#fff;
 }
 
 .p2 {
