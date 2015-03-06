@@ -11,7 +11,7 @@ header{
 }
 
 h1 {
-  font-size:3.0rem;
+  font-size:4.0rem;
   font-family:Merriweather, serif;
   color:#fff;
   line-height:1.5;
@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-  font-size:2.5rem;
+  font-size:3rem;
   font-family:Merriweather, serif;
   line-height:1.5;
   border-top: #ffe524;
@@ -33,6 +33,21 @@ h2 {
   background-color:#d98156;
   text-align:center;
 }
+
+h3 {
+  font-size:3rem;
+  font-family:Merriweather, serif;
+  line-height:1.5;
+  border-top: #ffe524;
+  margin: 0em;
+  padding: 2em 0em 2em 0em;
+  color:#fff;
+  background-color:#fff;
+  text-align:center;
+
+}
+
+
 
 main{
   overflow:hidden;
@@ -89,31 +104,27 @@ main{
 
 .corn{
   float:right;
-  clear:both;
   width:100%;
-  margin:0em;
-  padding:0em;
-  border-color:gray;
-  border:2em;
 }
 
 .rice{
   float:left;
   width:50%;
-  margin:0em;
-  padding:0em;
-  border-color:gray;
-  border:2em;
+  text-align:center;
+  color:#fff;
+  font-size:2rem;
+  background-color:#d98156
 }
 
 .oat{
   float:right;
   width:50%;
-  margin:0em;
-  padding:0em;
-  border-color:gray;
-  border:0em;
+  text-align:center;
+  color:#fff;
+  font-size:2rem;
+  background-color:#d98156
 }
+
 .peanuts{
   float:right;
   width:30%;
@@ -143,6 +154,10 @@ main{
   border:2em;
 }
 
+.famous-legumes{
+  clear:both;
+}
+
 main {
   padding: 0em 1em;
 }
@@ -163,6 +178,33 @@ p{
 
 }
 
+.middle{
+  background-color:#d98156;
+}
+
+.corn-cap{
+  text-align:center;
+  color:#fff;
+  font-size:2rem;
+  background-color:#d98156
+}
+
+.rice-cap{
+  text-align:center;
+  color:#fff;
+  font-size:2rem;
+  float:left;
+  background-color:#d98156
+}
+
+.oat-cap{
+  text-align:center;
+  color:#fff;
+  font-size:2rem;
+  float:right;
+  background-color:#d98156
+}
+
 .cornp{
   font-weight:normal;
   font-size:1rem;
@@ -177,13 +219,9 @@ p{
 .p2 {
   clear:left;
 }
-nav a:hover{
-  background-color:#fff;
-}
 
-figcaption {
-  font-style:italic;
-  font-size:.8rem;
+nav a:hover{
+  background-color:#a33f3a;
 }
 
 body {
